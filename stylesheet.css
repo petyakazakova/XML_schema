@@ -1,0 +1,26 @@
+employee {
+    width: 300px;
+    background: #eeeeee;
+    display: block;
+    border: 1px solid #999;
+    margin: 10px;
+    padding: 15px;
+}
+
+firstname, lastname {
+    font-weight:bold;
+}
+
+phone, email {
+    display: block;
+}
+
+email:before {
+    content: "e-mail: ";
+}
+
+phone:before {
+	content: attr(type) ": ";
+}
+
+phone:first-letter {text-transform: capitalize;}

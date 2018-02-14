@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="stylesheet.css" ?>
+
+<employees xmlns:xs="https://www.w3.org/2001/XML-Schema-instance" xs:noNamespaceSchemaLocation="./my-schema.xsd">
+  <employee>
+    <firstname>Petya</firstname>
+    <lastname>Kazakova</lastname>
+    <phone type="work">45607412</phone>
+    <phone type="mobile">34582017</phone>
+    <email>pkazakova@gmail.com</email>
+  </employee>
+
+  <employee>
+    <firstname>Svilena</firstname>
+    <lastname>Koleva</lastname>
+    <phone type="work">45607412</phone>
+    <phone type="mobile">34582017</phone>
+    <email>skoleva@gmail.com</email>
+  </employee> 
+  
+  <employee>
+    <firstname>Andreas</firstname>
+    <lastname>Brolund</lastname>
+    <phone type="work">45607412</phone>
+    <phone type="mobile">34582017</phone>
+    <email>abrolund@gmail.com</email>
+  </employee> 
+
+</employees>
